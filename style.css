@@ -1,0 +1,70 @@
+body {
+    background: #333;
+    color: white;
+    font-family: monospace;
+    margin: 0;
+}
+
+main {
+    padding: 12px;
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    background: #222;
+    padding-top: 18.5px;
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+section h4 {
+    color: #999;
+}
+
+section img {
+    width: 800px;
+    border-radius: 2px;
+}
+
+section {
+    font-size: 1rem;
+    border: 1px solid;
+    padding: 15px;
+    text-wrap: pretty;
+    border-radius: 2px;
+    margin-top: 27px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 37px;
+    width: 900px;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+.section-title {
+    font-size: 2.5rem;
+}
+
+.apartat {
+    margin-top: 130px;
+}
