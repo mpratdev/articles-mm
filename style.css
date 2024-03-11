@@ -26,16 +26,16 @@ h1 {
     padding: 5px;
 }
 
-section h4 {
+.article h4 {
     color: #999;
 }
 
-section img {
+.article img {
     width: 800px;
     border-radius: 2px;
 }
 
-section {
+.article {
     font-size: 1rem;
     border: 1px solid;
     padding: 15px;
@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #888;
+    color: #999;
 }
 
 .section-title {
@@ -66,5 +66,44 @@ nav a:hover {
 }
 
 .apartat {
-    margin-top: 130px;
+    margin-top: 100px;
+}
+
+.article-box {
+    text-decoration: none;
+    border: 1px solid;
+    width: 250px;
+    border-radius: 2px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content a {
+    text-decoration: none;
+    position: relative;
+}
+
+.article-box h4 {
+    margin-top: -10px;
+    font-size: 15px;
+    color: #999;
+}
+
+.article-box img {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.article-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#latest-title {
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 30px;
 }
